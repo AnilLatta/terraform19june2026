@@ -14,7 +14,7 @@ resource "azurerm_resource_group" "rg3" {
 resource "azurerm_resource_group" "vars" {
   for_each = var.vargs
 
-  name     = each.vale.name
+  name     = each.value.name
   location = each.value.location
 }
 resource "azurerm_storage_account" "stgs" {
