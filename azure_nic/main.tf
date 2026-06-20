@@ -1,5 +1,5 @@
 resource "azurerm_network_interface" "vnic" {
-  for_each = var.vnic
+  for_each            = var.vnic
   name                = each.value.name
   location            = each.value.location
   resource_group_name = each.value.resource_group_name
