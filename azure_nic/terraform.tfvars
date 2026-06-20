@@ -1,7 +1,7 @@
 vnic = {
   vnic1 = {
     name                = "vnic1"
-    location            = "centralindia"
+    location            = "japaneast"
     resource_group_name = "rg1"
 
     ip_configuration = {
@@ -12,7 +12,7 @@ vnic = {
   }
   vnic2 = {
     name                = "vnic2"
-    location            = "westus"
+    location            = "japanwest"
     resource_group_name = "rg2"
 
     ip_configuration = {

@@ -1,5 +1,5 @@
 resource "azurerm_network_security_group" "vnsg" {
-  for_each = var.vnsg
+  for_each            = var.vnsg
   name                = each.value.name
   location            = each.value.location
   resource_group_name = each.value.resource_group_name

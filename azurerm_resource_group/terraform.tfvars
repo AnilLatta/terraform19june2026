@@ -1,16 +1,16 @@
 vrgs = {
   rgs1 = {
     name     = "rg1"
-    location = "centralindia"
+    location = "japaneast"
   }
   rgs2 = {
 
     name     = "rg2"
-    location = "westus"
+    location = "japanwest"
   }
   rgs3 = {
 
-    name     = "Bastionrg"
-    location = "japaneast"
+    name     = "bastionrg"
+    location = "centralindia"
   }
 }

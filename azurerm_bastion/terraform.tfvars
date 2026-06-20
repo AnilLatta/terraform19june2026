@@ -1,7 +1,7 @@
 vmbastion = {
   vmbastion1 ={
         name                = "vmbastion12"
-        location            = "japaneast"
+        location            = "centralindia"
         resource_group_name = "bastionrg"
 
         ip_configuration ={
