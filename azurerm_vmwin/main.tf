@@ -6,9 +6,7 @@ resource "azurerm_windows_virtual_machine" "vmwin" {
   size                = each.value.size
   admin_username      = each.value.admin_username
   admin_password      = each.value.admin_password
-  network_interface_ids = [
-    azurerm_network_interface.example.id,
-  ]
+  network_interface_ids = each.value.network_interface_ids
 
   os_disk {
     caching              = each.value.os_disk.caching
